@@ -1,8 +1,4 @@
-/* ===========================
-   DREAMEA INK — INTERACTIONS
-   =========================== */
 
-// ===== CUSTOM CURSOR =====
 const cursor = document.createElement('div');
 cursor.className = 'cursor';
 const cursorRing = document.createElement('div');
@@ -37,7 +33,6 @@ document.querySelectorAll('a, button, .project-card, .service-item, .social-item
   });
 });
 
-// ===== NAV SCROLL BEHAVIOUR =====
 const nav = document.getElementById('nav');
 
 window.addEventListener('scroll', () => {
@@ -68,8 +63,8 @@ menuToggle?.addEventListener('click', () => {
 
 navOverlay?.addEventListener('click', closeNav);
 
-// Close nav on topbar link click (mobile — topbar is hidden but just in case)
-document.querySelectorAll('.topbar-links a').forEach(a => {
+// Close nav when any nav link is tapped (mobile sidebar + topbar)
+document.querySelectorAll('.topbar-links a, .nav-mobile-link').forEach(a => {
   a.addEventListener('click', () => closeNav());
 });
 
