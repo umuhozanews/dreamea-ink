@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dreamea Ink — Premium Creative Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- TOP-RIGHT NAV LINKS -->
+  <div class="topbar-links">
+    <a href="#hero">Home</a>
+    <a href="work.html">Work</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- OVERLAY (mobile) -->
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- MAIN CONTENT -->
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <video class="hero-video" autoplay muted loop playsinline preload="auto">
+          <source src="assets/hero.mp4" type="video/mp4">
+        </video>
+        <div class="hero-video-overlay"></div>
+        <div class="hero-noise"></div>
+      </div>
+      <div class="hero-content">
+
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-label reveal">About Us</div>
+        <div class="about-grid">
+          <h2 class="about-title reveal">We are Dreamea.<br>We craft work<br>that transcends.</h2>
+          <div class="about-body">
+            <p class="reveal">Dreamea Ink is a premium creative studio operating at the intersection of editorial sophistication and cinematic motion language. We combine the discipline of fine art with the power of modern interactive storytelling.</p>
+            <p class="reveal">From concept to execution, we bring the same relentless dedication to craft — whether it's 2D design, 3D worlds, motion graphics, illustration, or brand identity. Every frame is intentional.</p>
+            <div class="about-stats reveal">
+              <div class="stat">
+                <span class="stat-num" data-target="80" data-suffix="+">80+</span>
+                <span class="stat-label">Projects Delivered</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num" data-target="5" data-suffix="+">5+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num" data-target="40" data-suffix="+">40+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTO SLIDER -->
+    <div class="photo-slider-wrap">
+      <div class="photo-slider" id="photoSlider">
+        <!-- set A -->
+        <div class="slide-item">
+          <img src="assets/slide-1.jpg" alt="Patriots Brand Identity">
+          <div class="slide-label">Sports Branding</div>
+        </div>
+        <div class="slide-item tall">
+          <img src="assets/slide-2.jpg" alt="Green Fields Campaign">
+          <div class="slide-label">Documentary Film</div>
+        </div>
+        <div class="slide-item">
+          <img src="assets/slide-3.jpg" alt="Visit Rwanda">
+          <div class="slide-label">Tourism Campaign</div>
+        </div>
+        <div class="slide-item portrait">
+          <img src="assets/slide-1.jpg" alt="Creative Work">
+          <div class="slide-label">Brand Identity</div>
+        </div>
+        <div class="slide-item wide">
+          <img src="assets/slide-2.jpg" alt="Landscape Content">
+          <div class="slide-label">Content Creation</div>
+        </div>
+        <div class="slide-item">
+          <img src="assets/slide-1.jpg" alt="Sports Content">
+          <div class="slide-label">Photography</div>
+        </div>
+        <!-- set B (duplicate for seamless loop) -->
+        <div class="slide-item">
+          <img src="assets/slide-1.jpg" alt="Patriots Brand Identity">
+          <div class="slide-label">Sports Branding</div>
+        </div>
+        <div class="slide-item tall">
+          <img src="assets/slide-2.jpg" alt="Green Fields Campaign">
+          <div class="slide-label">Documentary Film</div>
+        </div>
+        <div class="slide-item">
+          <img src="assets/slide-3.jpg" alt="Visit Rwanda">
+          <div class="slide-label">Tourism Campaign</div>
+        </div>
+        <div class="slide-item portrait">
+          <img src="assets/slide-1.jpg" alt="Creative Work">
+          <div class="slide-label">Brand Identity</div>
+        </div>
+        <div class="slide-item wide">
+          <img src="assets/slide-2.jpg" alt="Landscape Content">
+          <div class="slide-label">Content Creation</div>
+        </div>
+        <div class="slide-item">
+          <img src="assets/slide-1.jpg" alt="Sports Content">
+          <div class="slide-label">Photography</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WORK / CASE STUDIES -->
+    <section class="work section" id="work">
+      <div class="container">
+        <div class="work-header">
+          <div class="section-label reveal">Selected Work</div>
+          <h2 class="section-title reveal">Projects we're<br>proud of</h2>
+          <a href="#" class="btn-ghost reveal">View all work <span class="arrow">→</span></a>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div class="project-img">
+              <img src="assets/project-1.jpg" alt="Patriots Brand Identity" loading="lazy">
+              <div class="project-overlay"></div>
+              <div class="project-hover-label">View Project →</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>01</span><span>Sports · 2024</span></div>
+              <h3 class="project-title">Patriots — Brand Identity</h3>
+              <p class="project-cat">Sports Branding · Photography · Campaign</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-img">
+              <img src="assets/project-2.jpg" alt="Green Fields Campaign" loading="lazy">
+              <div class="project-overlay"></div>
+              <div class="project-hover-label">View Project →</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>02</span><span>Documentary · 2024</span></div>
+              <h3 class="project-title">Green Fields — Visual Campaign</h3>
+              <p class="project-cat">Documentary · Content Creation · Film</p>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-img">
+              <img src="assets/project-3.jpg" alt="Visit Rwanda Tourism Campaign" loading="lazy">
+              <div class="project-overlay"></div>
+              <div class="project-hover-label">View Project →</div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>03</span><span>Tourism · 2023</span></div>
+              <h3 class="project-title">Visit Rwanda — Tourism Campaign</h3>
+              <p class="project-cat">Tourism · Marketing · Photography</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="services-top">
+          <div class="section-label reveal">What We Do</div>
+          <h2 class="section-title reveal">Our craft,<br>your competitive edge.</h2>
+        </div>
+        <div class="services-list">
+          <div class="service-item reveal">
+            <span class="service-num">01</span>
+            <div class="service-content">
+              <h3>Branding</h3>
+              <p>Identity systems, logos, brand guidelines, and visual strategy that make you impossible to ignore.</p>
+            </div>
+            <span class="service-arrow">↗</span>
+          </div>
+          <div class="service-item reveal">
+            <span class="service-num">02</span>
+            <div class="service-content">
+              <h3>Content Creation</h3>
+              <p>Photography, videography, and editorial content that tells your story at every touchpoint.</p>
+            </div>
+            <span class="service-arrow">↗</span>
+          </div>
+          <div class="service-item reveal">
+            <span class="service-num">03</span>
+            <div class="service-content">
+              <h3>Web Design</h3>
+              <p>High-performance digital experiences crafted with precision, clarity, and bold aesthetics.</p>
+            </div>
+            <span class="service-arrow">↗</span>
+          </div>
+          <div class="service-item reveal">
+            <span class="service-num">04</span>
+            <div class="service-content">
+              <h3>Marketing Strategy</h3>
+              <p>Data-driven campaigns that amplify reach, build community, and convert audiences into lifelong advocates.</p>
+            </div>
+            <span class="service-arrow">↗</span>
+          </div>
+        </div>
+        <div class="services-cta reveal">
+          <a href="#contact" class="btn-primary large">Let's work together</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL FEED -->
+    <section class="social section" id="social">
+      <div class="container">
+        <div class="social-header">
+          <div class="section-label reveal">Follow Us</div>
+          <h2 class="section-title reveal">@dreameaink</h2>
+        </div>
+      </div>
+      <div class="social-grid reveal">
+        <div class="social-item" style="background-image:url('assets/project-1.jpg')"></div>
+        <div class="social-item" style="background-image:url('assets/project-2.jpg')"></div>
+        <div class="social-item" style="background-image:url('assets/project-3.jpg')"></div>
+        <div class="social-item" style="background-image:url('assets/project-3.jpg');background-position:top"></div>
+        <div class="social-item" style="background-image:url('assets/project-1.jpg');background-position:top"></div>
+        <div class="social-item" style="background-image:url('assets/project-2.jpg');background-position:bottom"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT CTA -->
+    <section class="cta-section section" id="contact">
+      <div class="container">
+        <div class="cta-inner">
+          <div class="cta-label reveal">Get in Touch</div>
+          <h2 class="cta-title reveal">Ready to build<br>something great?</h2>
+          <a href="mailto:hello@dreameaink.com" class="btn-primary large reveal">Start a Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-brand reveal">
+        <span>DREAMEA</span><span class="footer-brand-outline">INK</span>
+      </div>
+      <div class="footer-bottom container">
+        <nav class="footer-links">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <address class="footer-contact">
+          <span>hello@dreameaink.com</span>
+          <span>+250 788 000 000</span>
+          <span>Kigali, Rwanda</span>
+        </address>
+        <p class="footer-copy">© 2024 Dreamea Ink.<br>All rights reserved.</p>
+      </div>
+    </footer>
+
+  </main><!-- /main -->
+
+  <script src="script.js"></script>
+</body>
+</html>
