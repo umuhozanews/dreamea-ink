@@ -516,7 +516,7 @@ body {
   align-items: center;
   gap: 6px;
   height: 420px;
-  animation: sliderMove 30s linear infinite;
+  animation: sliderMove 18s linear infinite;
   will-change: transform;
 }
 
